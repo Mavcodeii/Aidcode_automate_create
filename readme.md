@@ -25,3 +25,6 @@ Example:
 if dataprovider == <Dataprovider>:
     select_sql = sql_repo.select_sql_<Dataprovider>
 
+### What are Aid codes
+
+They are a standard of medical coding specifically for medi-cal that aid in eligibility services. These codes have a many-to-many relationship between the Code and the practice specialty. To be useful in reporting these codes need to be housed in a source of truth table that can define the codes. When a new combination comes in this needs to be defined and the data definition tables needs to be updated for the DataWarehouse system 
